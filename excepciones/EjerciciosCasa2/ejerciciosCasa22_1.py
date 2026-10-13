@@ -15,7 +15,7 @@ try:
     #si es menor de 0 salta error
     if numero < 0:
         raise numerosNegativos()
-    if (numero <= 3) : esPrimo = true #Si el numero es igual o menor a 1 es imposible que sea primo
+    if (numero <= 3) : esPrimo = True #Si el numero es igual o menor a 1 es imposible que sea primo
     else:
         for i in range(2, (numero//2)+1):
             if numero % i == 0:
