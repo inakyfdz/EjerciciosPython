@@ -22,7 +22,7 @@ try:
         raise ErrorCajero("No hay suficiente saldo para realizar la retirada.")
 
 
-    saldo = saldo - cantidad
+    saldo -= cantidad
 
 
     print("Retirada realizada correctamente.")
